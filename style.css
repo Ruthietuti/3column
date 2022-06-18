@@ -85,10 +85,16 @@ button:hover {
 img{
     margin-left: 20px;
 }
-@media (max-width:1440px){
+@media (maxd-width:1440px){
     .container{
         display: flex;
         flex-wrap: wrap;
+    }
+    p{
+        font-size: larger;
+    }
+    h2{
+        font-size: 50px;
     }
     .sedan{
         flex: 50%;
@@ -102,11 +108,18 @@ img{
     }
 }
 
-@media (max-width:375px){
+@media (max-width:447px){
     .container{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+    p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h2{
+        font-size: 30px;
     }
     button{
         margin-bottom: 10px;
